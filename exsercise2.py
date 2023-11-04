@@ -1,14 +1,13 @@
 #!usr/bin/python3
 """
-    This is added to create matrix and to check elements in there.
+    Սա ստեղծված է մատրիցա ստեղծելու և այնտեղ տարրերը ստուգելու համար:
 """
 import numpy
-
 def find_squares(matrix, value):
     """
-        This is the main code where we are searching the squares.
-        This also returns the top-left corner coordinates and the
-        size of the square. After that it returns the bool.
+        Սա այն հիմնական կոդն է, որտեղ մենք փնտրում ենք քառակուսիները:
+        Սա նաև վերադարձնում է քառակուսու վերևի ձախ անկյունի կոորդինատները և
+        այդ քառակուսու չափը. Դրանից հետո այն վերադարձնում է բուլյան արժեքը:
     """
     rows, cols = matrix.shape
     squares = []
@@ -25,10 +24,10 @@ def find_squares(matrix, value):
                     else:
                         break
     return squares,is_there
-
 def main():
     """
-        This the the main.
+        Սա մեր հիմնական ֆունկցիան է որի մեջ մենք կանչում ենք բոլոր 
+        մեր գրած ֆունկցիաները:
     """
     rows,cols = 14,14
     matrix = numpy.random.randint(2, size=(rows, cols))
