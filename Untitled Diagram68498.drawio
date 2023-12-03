@@ -1,9 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T13:22:49.434Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0" version="22.1.5" etag="72sVnWA6hLSUrrj6yGzP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T13:25:22.407Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0" etag="lH-dGNdayUguGKqQmEVK" version="22.1.5" type="github">
   <diagram name="Page-1" id="_WRymvRkoG3cETiFd40b">
-    <mxGraphModel>
+    <mxGraphModel dx="2728" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-2" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="699.5097695663273" y="2475.6266551356885" width="279.44839478999995" height="268.93334486431166" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-3" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="84YBZ0UlIB5ulF4zyxSt-2" target="84YBZ0UlIB5ulF4zyxSt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1069.2838995663274" y="2509.2433232437274" as="sourcePoint" />
+            <mxPoint x="1237.3630495663274" y="2341.1599827035325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" target="84YBZ0UlIB5ulF4zyxSt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="903.8267843063265" y="2408.39331891961" as="targetPoint" />
+            <mxPoint x="839.2339669613275" y="2374.7766508115706" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="84YBZ0UlIB5ulF4zyxSt-2" target="84YBZ0UlIB5ulF4zyxSt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1069.2838995663274" y="2509.2433232437274" as="sourcePoint" />
+            <mxPoint x="1237.3630495663274" y="2341.1599827035325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-6" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="495.8153184713375" y="1460" width="686.8593630573247" height="178.07518184072006" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-7" value="&lt;div style=&quot;font-size: 34px;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;rows, cols = 14, 14&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 34px;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;matrix = numpy.random.randint(2, size=(rows, cols))&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1739.8324286068455" width="998.49" height="178.07518184072006" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="84YBZ0UlIB5ulF4zyxSt-6" target="84YBZ0UlIB5ulF4zyxSt-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840.9409490445855" y="1714.3931169153143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-9" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;matrix, ones,zeros&lt;/font&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="656.3877740127391" y="2248.6186624374745" width="365.6890127388534" height="152.63587014918866" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="84YBZ0UlIB5ulF4zyxSt-11" target="84YBZ0UlIB5ulF4zyxSt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-11" value="&lt;div style=&quot;font-size: 34px;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;ones = find_squares(matrix,1)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 34px;&quot;&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;zeros = find_squares(matrix,0)&lt;/font&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="478.3385635668792" y="2019.664857213692" width="721.8383121019108" height="152.63587014918866" as="geometry" />
+        </mxCell>
+        <mxCell id="84YBZ0UlIB5ulF4zyxSt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="84YBZ0UlIB5ulF4zyxSt-7" target="84YBZ0UlIB5ulF4zyxSt-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="842.4249044585986" y="1994.2255455221602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
